@@ -107,6 +107,10 @@ export default {
   text-align: center;
 }
 
+.label-aHeadline {
+  color: grey;
+}
+
 [class*="__lg"] {
   display: inline-block;
   width: 100%;
@@ -119,7 +123,7 @@ export default {
 
 @media screen and (min-width: 620px) {
   [class*="__lg"] {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
 }
 

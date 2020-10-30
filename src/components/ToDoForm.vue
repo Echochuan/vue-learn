@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="onSubmit">
     <h2  class="label-wrapper">
-      <label for="new-todo-input" class="label__lg">
+      <label for="new-todo-input" class="label__lg label-aHeadline" color="grey">
         What needs to be done?
       </label>
     </h2>
