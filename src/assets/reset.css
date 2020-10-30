@@ -1,0 +1,84 @@
+/*reset.css*/
+/*RESETS*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: 2px solid burlywood;
+}
+
+html {
+    font: 92.5% /3.15 sans-serif;  /*前者是标题的字体大小，后者是表示每一行之间的距离*/
+}
+
+h1,
+h2{
+    margin-bottom: 0; /*定义标题的距离下部的距离*/
+}
+
+ul{
+    list-style: none;
+    padding: 0;  /*四个边距的大小*/
+}
+
+button{
+    border:0;
+    margin:0;
+    padding:0;
+    width:auto;
+    overflow: visible;
+    background:transparent;
+    color:inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner{
+    border: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea{
+    font-family: inherit;
+    font-size:100%;
+    line-height: 1.15;
+    margin:0;
+}
+
+button,
+input{
+    overflow:visible;
+}
+
+input[type="text"]{
+        border: radius 0;
+}
+
+body{
+    width:100%;
+    background: rgb(184, 178, 178);
+    max-width:68rem ;
+    margin: 0 auto;
+    font: 1.6em;
+    color:rgb(rgb(224, 186, 224))
+}
+
+@media screen and (min-width:400px){
+    body{
+        font-size:2.0rem;
+        line-height:2.0;
+    }
+}
+
+
+
+
